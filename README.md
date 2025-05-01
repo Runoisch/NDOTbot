@@ -13,6 +13,9 @@ WIP:
 
 TODO:
 - Handling Server Resets (TOP PRIORITY)
+- Improve security concerns (if there are any, i'm a noob when it comes to addressing security/server issues)
 - Painless Format Edits (w/o taking the bot down for maintainence)
 	* thinking fetch() updated formats from a file during the tier array refresh
-- Setup for easier server support (I don't wanna use a VM from google cloud there's gotta be a smoother way)
+- Setup for easier server support (I don't wanna use a VM from google cloud there's gotta be a smoother way that isn't gonna be costly)
+- Push structural updates while minimizing downtime
+	* Ergo like idk edit my code and push it out without having to disrupt any active processes (such as tours being killed)
