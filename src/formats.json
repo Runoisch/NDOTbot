@@ -1,0 +1,49 @@
+[{
+ "name":  "National Dex Ubers",
+ "value": "/tour create gen9nationaldexubers,elimination\n/tour autostart 5 \n/tour autodq 3 \n!tier [Gen 9] National Dex Ubers"
+ },
+{
+ "name":  "National Dex Doubles OU",
+ "value": "/tour create gen9nationaldexdoubles,elimination\n/tour autostart 5\n/tour autodq 2\n/tour !tier National Dex Doubles"
+ },
+{
+ "name":  "National Dex RU",
+ "value": "/tour create gen9nationaldexru,elimination\n/tour autostart 7\n/tour autodq 5\n!tier [Gen 9] National Dex RU"
+ },
+{
+ "name":  "National Dex AAA",
+ "value": "/tour create gen9nationaldexaaa,elimination,,,[Gen 9] National Dex AAA\n/tour autostart 7\n/tour autodq 5 \n!rfaq aaa"
+ },
+{
+ "name":  "National Dex BH",
+ "value": "/tour create gen9nationaldexbh,elimination \n/tour autostart 5\n/tour autodq 3 \n!rfaq bh" 
+ },
+{
+ "name":  "National Dex Ubers UU",
+ "value": "/tour new gen9nationaldexubersuu,elim,,,[Gen 9] National Dex Ubers UU\n/tour autostart 7\n/tour autodq 5\n!tier nationaldexubersuu"
+},
+{
+ "name":  "National Dex GG",
+ "value": "/tour create gen9nationaldexgodlygift,elimination,,,[Gen 9] National Dex Godly Gift \n/tour autostart 7 \n/tour autodq 5\n!rfaq gg" 
+ },
+{
+ "name":  "National Dex NFE",
+ "value": "/tour create gen9nationaldexag,elimination,,,[Gen 9] National Dex NFE \n/tour autostart 7\n/tour autodq 5\n/tour rules gen9nationaldex, Not Fully Evolved, Terastal Clause, -Basculin-white-striped, -Bisharp,-Chansey,-Doublade,-Duraludon, -Gligar, -Kadabra, -Haunter,-Magneton,-Mr. Mime Galar, -Porygon2,-Primeape,-Qwilfish-hisui,-Ursaring, -Scyther, -Sneasel, -Type: Null, +Moody\n!rfaq nfe \n!tier NFE" 
+ },
+{
+ "name":  "National Dex STAB",
+ "value": "/tour create gen9nationaldexstabmons,elimination,,,[Gen 9] National Dex STABmons \n/tour autostart 7\n/tour autodq 5 \n!rfaq stab"
+ },
+{
+ "name":  "National Dex LC",
+ "value": "/tour create gen9nationaldexlc,elimination,,,[Gen 9] National Dex LC\n/tour autostart 7\n/tour autodq 5\n!rfaq NatDex LC" 
+ },
+{
+ "name":  "National Dex 1v1",
+ "value": "/tour create gen9nationaldexag,elimination,,,[Gen 9] National Dex 1v1 \n/tour autostart 7 \n/tour autodq 5 \n/tour rules Picked Team Size = 1, Max Team Size = 3, -Arceus, -Archaludon, -Calyrex-Ice, -Calyrex-Shadow, -Chi-Yu, -Deoxys, -Deoxys-Attack, -Deoxys-Defense, -Dialga, -Dialga-Origin, -Eternatus, -Flutter Mane, -Giratina, -Giratina-Origin, -Gouging Fire, -Groudon, -Ho-Oh, -Jirachi, -Kangaskhan-Mega, -Koraidon, -Kyogre, -Kyurem-Black, -Kyurem-White, -Lugia, -Lunala, -Marshadow, -Mew, -Mewtwo, -Mimikyu, -Miraidon, -Necrozma-Dawn Wings, -Necrozma-Dusk Mane, -Ogerpon-Cornerstone, -Palkia, -Palkia-Origin, -Rayquaza, -Reshiram, -Salamence-Mega, -Shaymin-Sky, -Snorlax, -Solgaleo, -Terapagos, -Xerneas, -Yveltal, -Zacian, -Zacian-Crowned, -Zamazenta, -Zamazenta-Crowned, -Zekrom, -Fightinium Z + Detect, -Acupressure, -Moody, -Focus Sash, -Focus Band, -Perish Song, Accuracy Moves Clause, Evasion Moves Clause, OHKO Clause, Species Clause, Sleep Moves Clause, Dynamax Clause, Terastal Clause"
+ },
+{
+ "name":  "National Dex 35 Pokes",
+ "value": "/tour create gen9nationaldex35pokes,elimination,,,[Gen 9] 35 Pokes\n/tour autostart 7 \n/tour autodq 5"
+ }]
+  
