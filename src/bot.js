@@ -23,7 +23,7 @@ let first = rttiers[Math.floor(Math.random() * rttiers.length)]; // takes random
 //rttiers.splice(rttiers.indexOf(first), 1); this line seems redundant but I will keep it just it case
 console.log(first.value);
 let second;
-const inter = 30000 // 3600000 = An hour, edit as needed for quick testing (i personally do 30000/60000)
+const inter = 3600000 // 3600000 = An hour, edit as needed for quick testing (i personally do 30000/60000)
 
 Bot.connect();
 
