@@ -43,7 +43,7 @@ Bot.on('ready', () => {
 	
 	// resets arraylist after running out
 	if (rttiers.length === 0) {
-		rttiers = updateMetagames();
+		rttiers = await metagames();
 		console.log('Reset');
 	};
 	
