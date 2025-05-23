@@ -14,14 +14,10 @@ WIP:
 	* function to kill bot from discord (saves having to log on to where ever the server is/is going to be if it's a hassle)
 
 TODO (ordered by priority):
-1. Handling Server Resets (TOP PRIORITY)
-	* PS client attempts to retry connection but fails (despite claiming to succeed in console logs). 
-2. Complete integration to github (rn its just the script on there as I have it)
+1. Complete integration to github (rn its just the script on there as I have it)
 	- server hosting assumes you have your own method of running the script independently and its not entirely clear if its able to be done entirely through github
-3. Improve security concerns (if there are any, i'm a noob when it comes to addressing security/server issues)
-4. Painless Format Edits (w/o taking the bot down for maintainence)
-	* thinking fetch() updated formats from a file during the tier array refresh
-5. Push structural updates while minimizing downtime
+2. Improve security concerns (if there are any, i'm a noob when it comes to addressing security/server issues)
+3. Push structural updates while minimizing downtime
 	* Ergo like idk edit my code and push it out without having to disrupt any active processes (such as tours being killed)
 
 For Runo specifically:
