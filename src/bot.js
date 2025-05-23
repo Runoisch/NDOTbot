@@ -5,7 +5,10 @@ const Bot = new Client({
 	password: process.env.envPASS, // Should be a string just in case PW includes special chars
 	debug: true, 
 	avatar: 'shauntal',
-	rooms: ['ndot']
+	rooms: ['ndot'],
+	//server: 'localhost',
+	//port: 8000,  // ------------ Uncomment for local testing
+	//serverProtocol:'ws'
 	});
 
 // imports metagames
@@ -16,6 +19,7 @@ async function metagames(){
 
 
 (async () => {
+	
 // setup for the setInverval loop
 let date;
 let rttiers = await metagames();
@@ -26,6 +30,13 @@ let second;
 const inter = 3600000 // 3600000 = An hour, edit as needed for quick testing (i personally do 30000/60000)
 
 Bot.connect();
+async function connectToServer() {
+  try {
+    await client.connect();
+  } catch (err) {
+    console.error("Failed to connect:", err);
+  }
+}
 
 //main tour host functionality 
 Bot.on('ready', () => {
@@ -33,7 +44,7 @@ Bot.on('ready', () => {
   date = Date.now();
   const room = Bot.rooms.get('ndothertiers');// <-------------- important to edit
   if (room) {
-    setInterval(() => {
+    setInterval(async () => {
 	room.send("/tour end");
 	
 	//starts the first tour and removes the item from the arraylist
